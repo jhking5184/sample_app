@@ -5,8 +5,11 @@
       <h1>
         <%= gravatar_for @user %>
         <%= @user.name %>
-        <br>
-        <%= link_to @user.email %>
+        #<br>
+        #<a href="<%= @user.email %>">
+        #<%= @user.email %>
+        #</a> 
+        #<%= link_to @user.email %>
       </h1>
     </section>
   </aside>
